@@ -90,7 +90,9 @@ background: rgba(11, 2, 35, 0.10);
 font-size: 6rem;
 font-weight: 800;
 text-transform: uppercase;
-color: #db0586 ;
+color:  #F948B2 ;
+
+
 }
 .banner-text p{
     color: #534C64;
@@ -114,6 +116,43 @@ width: 450px;
 }
 
 /* banner area ended */
+
+
+/* online game area started */
+
+.games-title{
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #0B0223;
+  margin-left: 370px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  
+}
+.funny{
+  color: #ff42a5;
+}
+.games-description{
+  margin: 0 450px;
+}
+.card-container{
+  display: flex;
+  justify-content: center;
+  padding: 100px 240px;
+  
+  
+  
+}
+.card{
+    padding: 10px;
+    
+}
+.card img{
+    width: 300pxpx;
+    height: 350px;
+}
+
+/* online games area ended */
 
 
 
