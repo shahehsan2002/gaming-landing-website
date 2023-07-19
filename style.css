@@ -74,6 +74,7 @@ background: rgba(11, 2, 35, 0.10);
     display: flex;
     margin-top: 50px;
     justify-content: space-between;
+    background: url(images/Group\ 14.png);
 }
 
 .banner-text h1{
@@ -90,7 +91,11 @@ background: rgba(11, 2, 35, 0.10);
 font-size: 6rem;
 font-weight: 800;
 text-transform: uppercase;
-color:  #F948B2 ;
+/* color:  #F948B2 ; */
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 
 
 }
@@ -130,7 +135,10 @@ width: 450px;
   
 }
 .funny{
-  color: #ff42a5;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .games-description{
   margin: 0 450px;
@@ -187,6 +195,28 @@ margin-right: 200px;
 
 
 /* logo area startded */
+.icon-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-bottom: 60px;
+    
+}
+.icon-container .icon{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+.icon-container :hover{
+    border-radius: 50px;
+background: #FFF;
+border: 2px solid #ff42a5;
+padding: 5px;
+color: #F948B2;
+cursor: pointer;
+}
 
 
 /* logo area ended */
@@ -225,9 +255,16 @@ justify-content: center;
     color: #fff;
     padding: 10px;
 }
+.footer-icon{
+    padding-top: 30px;
+    padding-bottom: 30px;
 
+}
+.footer-icon a{
+    padding: 10px;
+}
 .footer-items-policy{
-    padding-top: 100px;
+    padding-top: 10px;
     
 }
 .footer-items-policy a{
