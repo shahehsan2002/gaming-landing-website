@@ -153,17 +153,93 @@ width: 450px;
 }
 
 /* online games area ended */
+ 
+
+/* play games area started */
+
+.play{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+
+    
+
+}
+.play-content{
+    text-align: right;  
+    
+}
+.play-img img{
+width: 400px;
+height: 500px;
+margin-right: 200px;
+
+}
+.bejali img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    bottom: 150px;
+    right: 30px;
+}
+
+/* play games area ended */
 
 
+/* logo area startded */
 
 
+/* logo area ended */
 
+/* footer area startded */
 
+footer{
+    border-radius: 8px;
+background: #0B0223;
+/* height: 100px; */
+text-align: center;
+padding: 215px;
+padding-right: 215px;
+padding-top: 100px;
+justify-content: center;
+}
+.footer-container{
+    max-width: 1000px;
+    margin: 0 auto;
 
+}
+.footer-logo-container{
+    display: flex;
+    color: #fff;
+    max-width: 1000px;
+    /* margin: 0 auto; */
+    padding-left: 320px;
+    padding-bottom: 30px;
+}
+.footer-items-container{
+    font-size: 1.25rem;
+    color: #fff;
+}
+.footer-items-container a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
 
-
-
-
-
+.footer-items-policy{
+    padding-top: 100px;
+    
+}
+.footer-items-policy a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+    justify-content: space-between;
+    
+}
+.copy{
+    color: rgba(255, 255, 255, 0.60);
+    padding-top: 20px;
+}
 
 
